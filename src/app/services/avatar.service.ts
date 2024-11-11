@@ -20,12 +20,12 @@ export class AvatarService {
 
   async uploadImage(cameraFile: Photo){
     const user = this.auth.currentUser;
-    const path = `uploads/Castillo-Steven_Alexis-Farinango/profile.webp`;
+    const path = `uploads/Castillo-Steven_Alexis-Farinango/${user?.uid}/profile.webp`;
     const storageRef = ref(this.storage, path);
     try {
       await uploadString(storageRef, cameraFile?.base64String as string, "base64")      
       const imageUrl = await getDownloadURL(storageRef);
-      const userDocRef = doc(this.firestore, `users/Castillo-Steven_Alexis-Farinango`);
+      const userDocRef = doc(this.firestore, `users/Castillo-Steven_Alexis-Farinango/${user?.uid}`);
       await setDoc(userDocRef,{
         imageUrl
       })

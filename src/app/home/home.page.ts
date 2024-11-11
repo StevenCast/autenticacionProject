@@ -11,7 +11,7 @@ import { AvatarService } from '../services/avatar.service';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-  profile = null;
+  profile:any = null;
   constructor(
     private avatarService: AvatarService,
     private authService: AuthService,

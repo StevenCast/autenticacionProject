@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/f4290414-0096-4896-84b6-26af06753b3d)
 # Authentication Projecct
 
 Este proyecto es una aplicación creada con Ionic y Firebase que permite a los usuarios registrarse, autenticarse y subir imágenes de perfil a Firebase Storage. La guía cubre desde la configuración inicial hasta la compilación de una APK para Android.

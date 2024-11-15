@@ -66,6 +66,10 @@ Carpeta donde encontrar el apk:
 ![image](https://github.com/user-attachments/assets/d8bfe92a-ec85-48c5-ad6f-5271be25aa65)
 ![image](https://github.com/user-attachments/assets/5ac70aaa-806b-4d7a-a8be-3a2e1afc669b)
 
+# Aportes por Estudiante
+Los aportes establecidos por cada uno de los estudiantes se realizaron en commits, en el caso de Steven Castillo los commits realizados
+por parte de él son superiores ya que en clase unicamente su computador tenia internet para realizar el proyecto.
+
 ## Recursos
 - https://devdactic.com/ionic-firebase-auth-upload
 - https://firebase.google.com/docs

@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/f4290414-0096-4896-84b6-26af06753b3d)
 # Authentication Projecct
 
 Este proyecto es una aplicación creada con Ionic y Firebase que permite a los usuarios registrarse, autenticarse y subir imágenes de perfil a Firebase Storage. La guía cubre desde la configuración inicial hasta la compilación de una APK para Android.
@@ -46,12 +46,26 @@ Ejecuta el siguiente comando para iniciar la aplicación en el navegador y verif
 `ionic serve`
 
 ## APK para Android
+Para generar el apk es necesario agregar las variables de entorno en el archivo `enviroment.prod.ts` una vez realizada seguir los comandos a continuación: 
+
 Comandos necesarios para generar el apk. Ejecutarlos en el orden establecido: 
 - `ionic capacitor add android`
 - `ionic build`
 - `npx cap copy android`
 - `npx cap sync android`
 - `npx cap open android`
+
+Carpeta donde encontrar el apk: 
+./APK Generada
+
+# Evidencias
+### Web
+![image](https://github.com/user-attachments/assets/474ed15c-c876-417c-bbfc-10df01c7b382)
+![image](https://github.com/user-attachments/assets/4da7cfd5-44da-4335-997c-4e0153db7e5e)
+
+### Móvil
+![image](https://github.com/user-attachments/assets/d8bfe92a-ec85-48c5-ad6f-5271be25aa65)
+![image](https://github.com/user-attachments/assets/5ac70aaa-806b-4d7a-a8be-3a2e1afc669b)
 
 ## Recursos
 - https://devdactic.com/ionic-firebase-auth-upload
